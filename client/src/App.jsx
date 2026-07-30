@@ -1,14 +1,19 @@
 // import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Result from './pages/Result'
+import ByCredit from './pages/ByCredit'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
-    <h2 className="text-2xl font-semibold text-blue-500">
-      Hello, Tailwind CSS!
-    </h2>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/result' element={<Result />} />
+        <Route path='/byCredit' element={<ByCredit />} />
+      </Routes>
     </div>
   )
 }
