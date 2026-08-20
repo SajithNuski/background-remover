@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 import { assets } from "../assets/assets";
 
 const Steps = () => {
   return (
-    <div className="mx-4 lg:mx-44 py-20 xl:py-40 ">
+    <div className="mx-4 lg:mx-44 py-10 xl:py-20 ">
       <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-zinc-500 to-zinc-900 text-transparent bg-clip-text">
         Steps to remove background <br /> image in seconds
       </h1>
