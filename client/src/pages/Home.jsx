@@ -2,6 +2,7 @@
 import Header from '../components/Header'
 import Steps from '../components/Steps'
 import BgSlider from '../components/BgSlider'
+import Testimoniol from '../components/Testimoniol'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Steps />
       <BgSlider />
+      <Testimoniol />
     </div>
   )
 }
