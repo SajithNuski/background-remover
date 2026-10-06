@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: 'Outfit';
+* {
+  font-family: "Outfit";
 }
 
 .slider {
-    -webkit-appearance: none;
-    height: 100%;
-    background: transparent;    
-
+  -webkit-appearance: none;
+  height: 100%;
+  background: transparent;
 }
 
 .slider::-webkit-slider-thumb {
-    appearance: none;
-    width: 30px;
-    min-height: 30px;
-    background-image: url(/slide_icon.svg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
+  appearance: none;
+  width: 30px;
+  min-height: 30px;
+  background-image: url(/slide_icon.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
 
+.bg-layer {
+  background-image: url(/bg_layer.png);
 }
