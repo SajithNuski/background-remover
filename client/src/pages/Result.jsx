@@ -17,13 +17,19 @@ const Result = () => {
               Background Removed
             </p>
             <div className="rounded-md border border-gray-300 h-full relative bg-layer overflow-hidden">
-              {/* <img src={assets.image_wo_bg} /> */}
+              <img src={assets.image_wo_bg} />
 
-              <div className="absolute right-1/2 bottom-1/2 transform trnslate-x-1/2 translate-y-1/2">
-                <div></div>
-              </div>
+              {/* <div className="absolute right-1/2 bottom-1/2 transform trnslate-x-1/2 translate-y-1/2">
+                <div className='border-4 border-violet-700 rounded-full h-12 w-12 border-t-transparent animate-spin '></div>
+              </div> */}
             </div>
           </div>
+        </div>
+        {/* action buttons */}
+        <div className="flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6">
+
+        <button className="py-2.5 px-8 text-violet-700 texts-sm border border-violet-700 rounded-full hover:scale-105 transition-all duration-700">Try Another Image</button>
+        <a className="px-8 py-2.5 text-white text-sm bg-gradient-to-tr from-violet-600 to-fuchsia-500 rounded-full hover:scale-105 transition-all duration-700" href="">Download Image</a>
         </div>
       </div>
     </div>
